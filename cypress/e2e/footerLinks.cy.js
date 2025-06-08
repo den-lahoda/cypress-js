@@ -1,4 +1,4 @@
-describe('Header buttons', () => {
+describe('Footer links', () => {
   beforeEach(() => {
     cy.visit('/');
   });
