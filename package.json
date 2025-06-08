@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/den-lahoda/cypress-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/den-lahoda/cypress-js/issues"
+  },
+  "homepage": "https://github.com/den-lahoda/cypress-js#readme",
+  "devDependencies": {
+    "cypress": "^14.4.0"
+  }
+}
