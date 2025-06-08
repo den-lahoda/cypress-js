@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/den-lahoda/cypress-js#readme",
   "devDependencies": {
-    "cypress": "^14.4.0"
+    "cypress": "^14.4.1"
   }
 }
