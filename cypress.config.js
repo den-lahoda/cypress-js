@@ -1,8 +1,9 @@
-const { defineConfig } = require("cypress");
+import { defineConfig } from "cypress";
 
-module.exports = defineConfig({
+export default defineConfig({
   e2e: {
-      baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space'
+      baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space',
+      supportFile: false,
     },
   screenshotOnRunFailure: true,
 });
