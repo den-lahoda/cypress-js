@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "cypress run"
+    "test:qauto": "cypress run --config-file cypress.config.qauto.js",
+    "test:qauto2": "cypress run --config-file cypress.config.qauto2.js",
+    "open:qauto": "cypress open --config-file cypress.config.qauto.js",
+    "open:qauto2": "cypress open --config-file cypress.config.qauto2.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/den-lahoda/cypress-js#readme",
   "devDependencies": {
-    "cypress": "^14.4.1"
+    "cypress": "^14.4.1",
+    "mochawesome": "^7.1.3"
   }
 }
