@@ -1,6 +1,6 @@
 export const users = {
   validUser: {
-    email: 'dentest@gmail.com',
-    password: 'Password1'
+    email: Cypress.env('email'),
+    password: Cypress.env('password')
   },
 };
